@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+# Use jquery as the JavaScript library
+gem 'jquery-rails'
 # User FontAwesome for styling
 gem 'font-awesome-sass', '~> 4.7.0'
 # Use Bootstrap for styling

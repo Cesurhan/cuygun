@@ -27,6 +27,7 @@ header h1 {
 
 header h3 {
   text-shadow: 2px 2px 4px #000000;
+  font-family: 'EB Garamond', serif;
 }
 
 .navbar-brand {
@@ -97,6 +98,60 @@ fieldset[disabled] .btn-trans.active {
   border-color: #FFFFFF;
 }
 
+// devicon
+
+.devicon {
+  font-size: 6em;
+}
+
+// skills
+
+.skills {
+  padding-bottom: 5em;
+}
+
+.skills-title {
+  padding: 1.5em;
+  padding-bottom: 2em;
+  font-family: 'EB Garamond', serif;
+}
+
+// middle-banner
+
+.middle-banner {
+  background-image: image-url('macbook.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: whitesmoke;
+  background-position:50% 40%;
+  padding-top: 10em;
+  padding-bottom: 5em;
+}
+
+.middle-banner h3 {
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'EB Garamond', serif;
+}
+
+.black-overlay {
+  background-color: rgba(000,0,0,0.5);
+}
+
+// portfolio
+
+.portfolio {
+  padding-bottom: 5em;
+  background-color: #EDEEEF;
+}
+
+.portfolio-title {
+  padding: 1.5em;
+  padding-bottom: 2em;
+  font-family: 'EB Garamond', serif;
+}
+
+// footer
+
 .footer-wrapper {
   color: #BEBEC0;
   background-color: #26262A;
@@ -116,8 +171,8 @@ fieldset[disabled] .btn-trans.active {
 }
 
 .contact li {
-  padding-left: 7em;
-  padding-right: 7em;
+  // padding-left: 5em;
+  // padding-right: 5em;
 }
 
 .social-media {
